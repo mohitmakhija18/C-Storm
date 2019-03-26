@@ -222,3 +222,22 @@ void numberToWord(int num){ //Contributed By Arnab Maji(GitHub: arnabmaji19)
 }
 
 //*******************************************************************************************************************************************
+void arrsmall(int arr[],int size)//contributed by Mohit Makhija(github:mohitmakhija18)
+{   char a;
+    do
+    {
+        int pos=0,smallestno;
+        smallestno =arr[0];//let us assume that small no. is on first position
+        for(int j=1;j<size;j++)
+        {
+        if(arr[j]<smallestno)
+          {  smallestno=arr[j];
+             pos=j+1;
+          }
+        }
+        printf("smallest element is %d and its position is %d",smallestno,pos);
+        printf("Do you want to continue?(y/n)");
+        scanf("%c",&a);
+    }  
+   while(a=='y'||a=='Y');
+}
