@@ -92,3 +92,10 @@ BECAUSE SOME OF THE INCLUDED FUNCTIONS ARE USING STANDARD MATH FUNCTIONS
 
 	argument-type: int
 	return-type: void
+#12 arrsmall() //contributed by Mohit Makhija
+ 
+        //prints the smallest number and its position from the array.
+	
+	arguement type:int
+	return type :void
+	
